@@ -1,36 +1,50 @@
 <html>
   <head>
-    <title> Portfolio Website </title>
-    <link rel="stylesheet" href="style.css">
+    <title> Falah Shazib </title>
+    <link rel="stylesheet" href="tempstyle.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Raleway" rel="stylesheet">
   </head>
   <body>
-    <div id="line"></div>
-    <section id="content">
-      <img id="photo" src="download.png" />
-      <h1> Falah Shazib </h1>
-      <div class="subtext">
-        a student
+    <div class="header">
+      <div class="container">
+        <div class="row">
+        <div id="english">
+          <p align="center">
+            <span style="color: #5a1dbd"> Falah </span>
+            <span style="color: #0db3ab "> Shazib </span>
+          </p>
+        </div>
       </div>
-      <h2>
-        About
-      </h2>
-      <div>
-        Hi, I study CS at UW.
       </div>
-      <h2>
-        Projects
-      </h2>
-      <div class="project-list">
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-      </div>
-    </section>
+    </div>
+    <div class="container">
+      <div class ="row">
+        <div class = "col-sm-6" id = "txt">
+          <p> <p align="center">
+            Hey! </p> <br>
+            I am a second year Computer Science student at the
+            <a class="text-link" href="https://uwaterloo.ca/">University of Waterloo</a>.
+            I am currently working at <a class="text-link" href="https://www.cibc.com/en/personal-banking.html">CIBC</a> as a Java Application Developer and am involved in a ton of non-profit work with the
+            <a class="text-link" href="https://equithon.org/">Equithon</a>, <a class="text-link" href="http://wics.uwaterloo.ca/about/">WiCS</a>, and many more organizations.
+            <br><br> Check out my resume below or shoot me an email!
+          </p>
+          <br>
+          <div class="row">
+            <div style="text-align: center;" class= "col-sm-6">
+              <button onclick="location.href='resume.pdf'" target:"_blank" class= "button"; type="button"> Resume </button>
+            </div>
+            <div style="text-align: center;" class = "col-sm-6">
+              <button onclick="location.href='mailto:fshazib@uwaterloo.ca';" class="button"; type="button"> Email Me </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+            </div>
+          </div>
+        </div>
+        <div class ="col-sm-6" id="pic">
+          <img class="img-responsive img-me" src="download.png"></img>
+        </div>
+    </div>
   </body>
-</html>
