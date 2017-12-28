@@ -409,7 +409,7 @@ bootstrap.min.css:5
 }
 .projects-holder .mix {
   display: none;
-} 
+}
 
 
 .filter-categories {
@@ -613,6 +613,12 @@ bootstrap.min.css:5
 	color: #fff;
 	background-color: #0c0170;
 	transition: all 0.3s;
+}
+
+#contact p {
+  color: #bec4f7;
+  font-size: 20px;
+  font-family: Raleway;
 }
 
 
