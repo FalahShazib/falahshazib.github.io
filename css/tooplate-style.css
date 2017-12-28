@@ -407,9 +407,9 @@ bootstrap.min.css:5
 	text-align: right;
 	color:black;
 }
-/*.projects-holder .mix {
+.projects-holder .mix {
   display: none;
-} */
+} 
 
 
 .filter-categories {
