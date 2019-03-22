@@ -1,4 +1,283 @@
-#content {
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#intro {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #0066CC;
+}
+#education {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #0000CC;
+}
+
+#edhead {
+  position:relative;
+  top: 15px;
+  height: 40px;
+  width: 50%;
+  margin: 10px 100px 10px 10px;
+  background-color: #00DD66;
+}
+#waterloo {
+  position: relative;
+  top: 40px;
+  height: 260px;
+  width: 50%;
+  margin-left: 10px;
+  background-color: #666666;
+}
+#nixor {
+  position:relative;
+  bottom: 220px;
+  left: 55%;
+  height: 125px;
+  width: 43%;
+  background-color: #66CC66;
+}
+#haque {
+  position: relative;
+  bottom: 205px;
+  left: 55%;
+  height: 120px;
+  width: 43%;
+  background-color: #660066;
+}
+#sideprojects {
+  flex: 0 0 140px;
+  height: 340px;
+  margin-bottom: 10px;
+  background-color: #CC00CC;
+}
+#sphead {
+  position:relative;
+  top: 15px;
+  left:33%;
+  height: 40px;
+  width: 300px;
+  margin: 10px 100px 10px 10px;
+  background-color: #00DD66;
+}
+#cc3k {
+  position:relative;
+  top: 45px;
+  height: 40px;
+  width: 300px;
+  margin: 10px 100px 10px 10px;
+  background-color: #00DDFF;
+}
+#gg {
+  position:relative;
+  top: 75px;
+  left: 20%;
+  height: 40px;
+  width: 300px;
+  margin: 10px 100px 10px 10px;
+  background-color: #DDDD66;
+}
+#urdufy {
+  position:relative;
+  top: 95px;
+  height: 40px;
+  width: 300px;
+  left: 40%;
+  margin: 10px 100px 10px 10px;
+  background-color: #66DD66;
+}
+#secondharvest {
+  position:relative;
+  top: 105px;
+  height: 40px;
+  left: 60%;
+  width: 300px;
+  margin: 10px 100px 10px 10px;
+  background-color: #00DDDD;
+}
+#work {
+  flex: 0 0 140px;
+  height: 680px;
+  max-height: 1000px;
+  margin-bottom: 10px;
+  background-color: #CCCCCC;
+}
+#whead {
+  position:relative;
+  top: 15px;
+  left:66%;
+  height: 40px;
+  width: 300px;
+  margin: 10px 100px 10px 10px;
+  background-color: #00DD66;
+}
+#cibc {
+  position:relative;
+  float: left;
+  top:30px;
+  height: 200px;
+  width: 200px;
+  margin: 5% 5% 3% 5%;
+  background-color: #DDBBBB;
+}
+#equi {
+  position:relative;
+  float: left;
+  top:30px;
+  height: 200px;
+  width: 200px;
+  margin: 5% 5% 3% 5%;
+  background-color: #DD00BB;
+}
+#aiesec {
+  position:relative;
+  float: left;
+  top:30px;
+  height: 200px;
+  width: 200px;
+  margin: 5% 5% 3% 5%;
+  background-color: #DDBB00;
+}
+#wics {
+  position:relative;
+  float: left;
+  top:30px;
+  height: 200px;
+  width: 200px;
+  margin: 5% 5% 3% 5%;
+  background-color: #00BBBB;
+}
+#circlek {
+  position:relative;
+  float: left;
+  top:30px;
+  height: 200px;
+  width: 200px;
+  margin: 5% 5% 3% 5%;
+  background-color: #DDBBBB;
+}
+#pgc {
+  position:relative;
+  float: left;
+  top:30px;
+  height: 200px;
+  width: 200px;
+  margin: 5% 5% 3% 5%;
+  background-color: #DD00BB;
+}
+#corp {
+  position:relative;
+  float: left;
+  top:30px;
+  height: 200px;
+  width: 200px;
+  margin: 5% 5% 3% 5%;
+  background-color: #DDBB00;
+}
+#ta {
+  position:relative;
+  float: left;
+  top:30px;
+  height: 200px;
+  width: 200px;
+  margin: 5% 5% 3% 5%;
+  background-color: #0000BB;
+}
+#awards {
+  flex: 0 0 140px;
+  height: 340px;
+  margin-bottom: 10px;
+  background-color: #00CCCC;
+}
+#contact {
+  flex: 0 0 140px;
+  height: 340px;
+  margin-bottom: 10px;
+  background-color: #CC0000;
+}
+#ahead {
+  position:relative;
+  top: 15px;
+  height: 40px;
+  width: 300px;
+  margin: 10px 100px 10px 10px;
+  background-color: #00DD66;
+}
+#pschol {
+  position:relative;
+  float: left;
+  top:30px;
+  height: 200px;
+  width: 15%;
+  margin: 5% 5% 3% 5%;
+  background-color: #DDBBBB;
+}
+#imo {
+  position:relative;
+  float:left;
+  top: 30px;
+  height: 200px;
+  width: 15%;
+  margin: 5% 5% 3% 5%;
+  background-color: #DD00BB;
+}
+#kang {
+  position:relative;
+  float: left;
+  top: 30px;
+  height: 200px;
+  width: 15%;
+  margin: 5% 5% 3% 5%;
+  background-color: #DDBB00;
+}
+#euclid {
+  position:relative;
+  float:left;
+  top:30px;
+  height: 200px;
+  width: 15%;
+  margin: 5% 5% 3% 5%;
+  background-color: #00BBBB;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*#content {
   width: 600px;
   margin: 120px auto;
 }
@@ -40,21 +319,22 @@ h1, h2 {
   width: 150px;
 }
 #project-list {
-  display: flex;                  /* Flex box */
-  flex-direction: row;            /* Left to right */
-  flex-wrap: wrap;                /* Wrap content */
-  justify-content: space-between; /* Spread space */
+  display: flex;                  /* Flex box
+  flex-direction: row;            /* Left to right *
+  flex-wrap: wrap;                /* Wrap content *
+  justify-content: space-between; /* Spread space *
 }
 
 .project {
-  flex: 0 0 140px;                /* نہیں grow/shrink, 140px width */
+  flex: 0 0 140px;                /* نہیں grow/shrink, 140px width *
   height: 140px;
   margin-bottom: 10px;
   background-color:#0066CC;
 }
 .project {
-  transition: 0.2s background-color; /* add this */
+  transition: 0.2s background-color; /* add this *
 }
 .project:hover {
   background-color: #9b00CC;
 }
+*/
